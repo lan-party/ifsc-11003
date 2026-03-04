@@ -94,4 +94,5 @@ nav.primary a{
 nav.primary a:hover{
   background-color: rgba(170, 60, 60, 255);
   color: #880000;
+  transition: 0.5s;
 }
