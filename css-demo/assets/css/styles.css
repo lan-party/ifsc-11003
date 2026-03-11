@@ -8,7 +8,18 @@ html {
   box-sizing: inherit;
 }
 
+/* Responsive Images */
+img {
+  max-width: 100%;
+}
+
 /* --------------Utility Classes ---------------- */
+
+.container {
+  max-width: 960px;
+  width: 85vw;
+  margin: 10px auto;
+}
 
 /* Skip link utility: hidden until focused */
 .visually-hidden {
@@ -95,4 +106,43 @@ nav.primary a:hover{
   background-color: rgba(170, 60, 60, 255);
   color: #880000;
   transition: 0.5s;
+}
+
+#content h2 {
+  text-align: center;
+  background-color: #b6ae96;
+  border-bottom: solid 3px #8d805b;
+  border-radius: 10px 10px 0 0;
+}
+#content p {
+  line-height: 1.25em;
+}
+#blog {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+figure {
+  margin: 0px;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:600px){
+  nav.primary ul{
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+  }
+  nav.primary a{
+    display: block;
+  }
+
+  .container{
+    max-width: 95vw;
+  }
+
 }
