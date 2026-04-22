@@ -148,13 +148,13 @@ header.primary h1 a {
     color: #d1f8ff;
     letter-spacing: 3px;
 }
-nav a,section a {
+nav a,article a {
     text-decoration: none;
     color: #d1f8ff;
     padding-right: 6px;
     border-right: 2px solid #ff2a6d;
 }
-nav a:hover,section a:hover {
+nav a:hover,article a:hover {
     padding-right: 3px;
     border-right: 5px solid #ff2a6d;
     color: #ff2a6d;
