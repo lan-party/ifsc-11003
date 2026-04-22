@@ -97,6 +97,10 @@ nav.primary ul li{
 #rovers > * {
     max-width: 49%;
 }
+#mission-dates {
+    display: flex;
+    padding: 25px;
+}
 aside {
     display: flex;
     flex-direction: column;
@@ -126,7 +130,7 @@ nav.footer-nav ul li{
 /* Content layout */
 body {
     font-family: Arial, sans-serif;
-    background-color: #02012b;
+    background-image: linear-gradient(to bottom, #01001d, #02012b);
     color: #d1f8ff;
 }
 h1, h2, h3 {
@@ -144,19 +148,99 @@ header.primary h1 a {
     color: #d1f8ff;
     letter-spacing: 3px;
 }
-header.primary nav a {
+nav a,section a {
     text-decoration: none;
     color: #d1f8ff;
     padding-right: 6px;
     border-right: 2px solid #ff2a6d;
 }
-header.primary nav a:hover {
+nav a:hover,section a:hover {
     padding-right: 3px;
     border-right: 5px solid #ff2a6d;
     color: #ff2a6d;
 }
 #rovers > article {
     padding: 10px;
+}
+#rovers h2 {
+    line-height: 2.5rem;
+    padding-left: 50px;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20%0A%20%20%20%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%0A%20%20%20%20xmlns%3Akrita%3D%22http%3A%2F%2Fkrita.org%2Fnamespaces%2Fsvg%2Fkrita%22%0A%20%20%20%20xmlns%3Asodipodi%3D%22http%3A%2F%2Fsodipodi.sourceforge.net%2FDTD%2Fsodipodi-0.dtd%22%0A%20%20%20%20width%3D%22185.76pt%22%0A%20%20%20%20height%3D%22120pt%22%0A%20%20%20%20viewBox%3D%220%200%20185.76%20120%22%3E%0A%3Cdefs%2F%3E%0A%3Cpath%20id%3D%22shape0%22%20fill%3D%22%23cc002c%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22none%22%20stroke-width%3D%229.6%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22bevel%22%20d%3D%22M0%200L20.88%20120L164.88%20120L144%200Z%22%20sodipodi%3Anodetypes%3D%22ccccc%22%2F%3E%3Cpath%20id%3D%22shape1%22%20transform%3D%22translate(152.88%2C%200)%22%20fill%3D%22%23cc002c%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22none%22%20stroke-width%3D%229.6%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22bevel%22%20d%3D%22M0%200L20.88%20120L32.88%20120L12%200Z%22%20sodipodi%3Anodetypes%3D%22ccccc%22%2F%3E%0A%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+}
+#rovers article:nth-child(1) h2{
+    background-size: 15.5rem;
+}
+#rovers article:nth-child(2) h2{
+    background-size: 10.5rem;
+}
+#rovers article:nth-child(3) h2{
+    background-size: 18rem;
+}
+#rovers article:nth-child(4) h2{
+    background-size: 15rem;
+}
+#rovers article:nth-child(5) h2{
+    background-size: 19.5rem;
+}
+#rovers h3 {
+    text-align: center;
+}
+#rovers div {
+    position: relative;
+}
+#rovers div img {
+    position: absolute;
+    z-index: -1;
+}
+#rovers p {
+    padding: 10px;
+}
+#mission-dates table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#mission-dates thead {
+    border: 1px solid white;
+    background-color: #cc002c;
+    line-height: 2rem;
+}
+#mission-dates tbody {
+    background-color: #005679;
+}
+#mission-dates tr:nth-child(even){
+    background-color: rgb(0, 43, 59);
+}
+#mission-dates td {
+    border: 1px solid white;
+    padding: 5px;
+}
+#history-overview {
+    padding: 25px;
+}
+#history-overview > h2 {
+    text-align: center;
+    padding-right: 30px;
+    line-height: 2.5rem;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20%0A%20%20%20%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%0A%20%20%20%20xmlns%3Akrita%3D%22http%3A%2F%2Fkrita.org%2Fnamespaces%2Fsvg%2Fkrita%22%0A%20%20%20%20xmlns%3Asodipodi%3D%22http%3A%2F%2Fsodipodi.sourceforge.net%2FDTD%2Fsodipodi-0.dtd%22%0A%20%20%20%20width%3D%22185.76pt%22%0A%20%20%20%20height%3D%22120pt%22%0A%20%20%20%20viewBox%3D%220%200%20185.76%20120%22%3E%0A%3Cdefs%2F%3E%0A%3Cpath%20id%3D%22shape0%22%20fill%3D%22%23cc002c%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22none%22%20stroke-width%3D%229.6%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22bevel%22%20d%3D%22M0%200L20.88%20120L164.88%20120L144%200Z%22%20sodipodi%3Anodetypes%3D%22ccccc%22%2F%3E%3Cpath%20id%3D%22shape1%22%20transform%3D%22translate(152.88%2C%200)%22%20fill%3D%22%23cc002c%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22none%22%20stroke-width%3D%229.6%22%20stroke-linecap%3D%22square%22%20stroke-linejoin%3D%22bevel%22%20d%3D%22M0%200L20.88%20120L32.88%20120L12%200Z%22%20sodipodi%3Anodetypes%3D%22ccccc%22%2F%3E%0A%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22rem;
+}
+#history-overview article p {
+    margin-top: 40px;
+    text-indent: 50px;
+}
+#history-overview article img {
+    max-height: 300px;
+    margin: 25px;
+}
+#history-overview article img:nth-of-type(even) {
+    float: left;
+}
+#history-overview article img:nth-of-type(odd) {
+    float: right;
 }
 header.secondary {
     background-color: #005679;
@@ -174,6 +258,16 @@ p.subtitle {
     padding-bottom: 10px;
     border-bottom: 2px solid #ff2a6d;
 }
+#mission-patches {
+    background-color: #005679;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#mission-patches h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ff2a6d;
+}
 #mission-patches img {
     width: 80%;
     margin-left: 10%;
@@ -181,17 +275,6 @@ p.subtitle {
 footer.primary {
     background-color: #005679;
     color: #d1f8ff;
-}
-footer.primary a {
-    text-decoration: none;
-    color: #d1f8ff;
-    padding-right: 6px;
-    border-right: 2px solid #ff2a6d;
-}
-footer.primary a:hover {
-    padding-right: 3px;
-    border-right: 5px solid #ff2a6d;
-    color: #ff2a6d;
 }
 
 
@@ -250,5 +333,15 @@ footer.primary a:hover {
     /* Content layout */
     #mission-patches {
         display: none;
+    }
+    #mission-dates th:nth-child(even){
+        display: none;
+    }
+    #mission-dates td:nth-child(even){
+        display: none;
+    }
+    #history-overview article img {
+        max-width: 90%;
+        margin: 25px;
     }
 }
