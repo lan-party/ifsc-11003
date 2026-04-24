@@ -294,6 +294,13 @@ footer.primary {
     background-color: #005679;
     color: #d1f8ff;
 }
+footer.primary a {
+    text-decoration: none;
+    color: #d1f8ff;
+}
+footer.primary a:hover {
+    color: #ff2a6d;
+}
 
 
 /* Media Queries */
@@ -332,6 +339,7 @@ footer.primary {
     }
     nav.primary {
         margin: auto;
+        width: 100%;
     }
     nav.primary ul{
         display: flex;
@@ -361,5 +369,36 @@ footer.primary {
     #history-overview article img {
         max-width: 90%;
         margin: 25px;
+    }
+    #faq > h2 {
+        line-height: 2.5rem;
+        background-size: 28rem;
+        width: 28rem;
+        padding-left: 3rem;
+        padding-right: 6rem;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    /* Grid layout */
+    body {
+        grid-template-rows: 300px 450px 2fr 170px;
+    }
+
+    /* Flexbox layout */
+    nav.primary ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    /* Content layout */
+    #faq > h2 {
+        line-height: 2.5rem;
+        background-size: 20rem;
+        width: 20rem;
     }
 }
