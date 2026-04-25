@@ -333,6 +333,7 @@ footer.primary a:hover {
     header.primary {
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
     header.primary h1{
         text-align: center;
@@ -384,7 +385,7 @@ footer.primary a:hover {
 @media screen and (max-width:500px){
     /* Grid layout */
     body {
-        grid-template-rows: 300px 450px 2fr 170px;
+        grid-template-rows: 300px 500px 1fr 170px;
     }
 
     /* Flexbox layout */
