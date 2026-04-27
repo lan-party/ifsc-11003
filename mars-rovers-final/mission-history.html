@@ -1,159 +1,398 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
 
-        <title>Mars Rovers</title>
+<head>
+    <meta charset="utf-8">
 
-        <meta name="description" content="nasa mars space rover">
-        <meta name="author" content="Landon Burress">
-        <meta name="robots" content="noindex">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rovers</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <meta name="description" content="nasa mars space rover">
+    <meta name="author" content="Landon Burress">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/style.css" />
-    </head>
-    <body>
-        <a class="visually-hidden" href="#main-content">Skip to main content</a>
-        <header class="primary">
-            <h1><a href="index.html">&#128640; NASA Mars Rovers</a></h1>
-            <nav class="primary container" aria-label="Primary">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="mission-history.html">Mission History</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <a class="visually-hidden" href="#main-content">Skip to main content</a>
+    <header class="primary">
+        <h1><a href="index.html">&#128640; NASA Mars Rovers</a></h1>
+        <nav class="primary container" aria-label="Primary">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mission-history.html">Mission History</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section id="mission-dates">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rover</th>
+                        <th>Rocket</th>
+                        <th>Launch Date</th>
+                        <th>Launch Site</th>
+                        <th>Landing Date</th>
+                        <th>Landing Site</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sojourner</td>
+                        <td>Delta II 7925 D240</td>
+                        <td>December 4, 1996</td>
+                        <td>Cape Canaveral LC-17B</td>
+                        <td>July 4, 1997</td>
+                        <td>Ares Vallis, Chryse Planitia</td>
+                    </tr>
+                    <tr>
+                        <td>Spirit</td>
+                        <td>Delta II 7925-9.5</td>
+                        <td>June 10, 2003</td>
+                        <td>Cape Canaveral SLC-17A</td>
+                        <td>January 4, 2004</td>
+                        <td>Gusev Crater</td>
+                    </tr>
+                    <tr>
+                        <td>Opportunity</td>
+                        <td>Delta II Heavy</td>
+                        <td>July 8, 2003</td>
+                        <td>Cape Canaveral SLC-17B</td>
+                        <td>January 25, 2004</td>
+                        <td>Eagle, Meridiani Planum</td>
+                    </tr>
+                    <tr>
+                        <td>Curiosity</td>
+                        <td>Atlas V 541</td>
+                        <td>November 26, 2011</td>
+                        <td>Cape Canaveral SLC-41</td>
+                        <td>August 6, 2012</td>
+                        <td>Gale Crater</td>
+                    </tr>
+                    <tr>
+                        <td>Perseverance</td>
+                        <td>Atlas V 541</td>
+                        <td>July 30, 2020</td>
+                        <td>Cape Canaveral SLC-41</td>
+                        <td>February 18, 2021</td>
+                        <td>Jezero Crater</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="history-overview">
+
+            <h2>Mission History</h2>
+            <article>
+                <p>The first three decades (1965 to 1996) of Mars exploration consisted of periodic forays to the Red
+                    Planet, dictated by the availability of suitable launch windows every 26 months. The first few
+                    spacecraft completed their observations in the few hours of a quick planetary flyby, followed by
+                    months of observations by orbiters, and culminating in the longest continuous observation by a
+                    lander lasting six years. On July 4, 1997, a new era of continuous robotic scientific exploration of
+                    Mars began, with at least one spacecraft operating at all times, either on the surface or in orbit
+                    around the planet. Today, an international array of 13 spacecraft – one stationary lander, eight
+                    orbiters, three rovers, and one helicopter – continuously adding to our knowledge of the Red Planet.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-1-graphic.webp"
+                        alt="Summary of the past 25 years of continuous robotic Mars explorers." />
+                    <figcaption>Summary of the past 25 years of continuous robotic Mars explorers.</figcaption>
+                </figure>
+                <p>The first phase of Mars exploration recorded more failures than successes. Of the 26 attempts to
+                    reach Mars between 1960 and 1996, only 12 met with partial or full success. Between 1960 and 1969,
+                    the Soviet Union attempted to send eight spacecraft to Mars. Only two, Mars 1 and Zond 2, made it to
+                    interplanetary space, and controllers lost contact with both long before they reached Mars. The
+                    first successful Mars mission, Mariner 4, surprised many scientists when, during its flyby on July
+                    14, 1965, it returned 22 black-and-white images showing a cratered lunar-like terrain, seemingly
+                    dashing hopes for a possibly habitable world. Mariner 4 had a less well-known twin, Mariner 3, that
+                    due to a faulty payload shroud that prevented its solar panels from deploying, lost out on being the
+                    first spacecraft to explore Mars. That failure, along with the string of failed Soviet probes to
+                    Mars, led engineer John R. Casani at NASA’s Jet Propulsion Laboratory in Pasadena, California, to
+                    jokingly come up with the idea of the Great Galactic Ghoul, a mythical space monster that preyed on
+                    unsuspecting spacecraft on their way to the Red Planet. In 1969, as Mariner 7 approached the planet
+                    for its flyby, ground controllers suddenly lost contact with it. At first they jokingly feared a
+                    ghoul attack, but the spacecraft resumed communications and completed a successful mission along
+                    with its twin, Mariner 6.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-2-graphic.webp"
+                        alt="The highest-resolution image returned by Mariner 4 during its July 1965 flyby of Mars." />
+                    <figcaption>
+                        The highest-resolution image returned by Mariner 4 during its July 1965 flyby of Mars.
+                    </figcaption>
+                </figure>
+                <p>The 1970s were a little kinder to the Soviet Union. Six of their seven missions achieved partial
+                    successes with a series of flybys, orbiters, and landers. In 1971, the United States’ plan to send
+                    two orbiters to map the planet’s surface in detail suffered a setback when the first, Mariner 8,
+                    fell victim to a launch failure. But its twin, Mariner 9, became the first spacecraft to orbit
+                    another planet on Nov. 13. It continued to operate until October 1972, mapping 85% of the planet to
+                    a resolution sufficient for scientists to select landing sites for the next two spacecraft, Viking 1
+                    and 2, that arrived at Mars in the summer of 1976. Each Viking spacecraft consisted of an orbiter
+                    and a lander, the latter equipped with sophisticated instruments to test for signs of life in the
+                    Martian soil. While the results of those experiments remain inconclusive, all the Viking spacecraft
+                    far exceeded their operational lives, conducting the first detailed investigations from Mars’
+                    surface.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-3-graphic.webp"
+                        alt="Illustration of Phobos 2 in orbit around Mars." />
+                    <figcaption>Illustration of Phobos 2 in orbit around Mars.</figcaption>
+                </figure>
+                <p>A six-year hiatus in Mars exploration followed after the last of the Vikings stopped working (the
+                    Viking 1 lander, on Nov. 11, 1982). When attempts resumed, the Great Galactic Ghoul made its
+                    presence felt. The Soviet Union launched a pair of spacecraft called Phobos 1 and 2 in July 1988 to
+                    orbit Mars and deploy landers and a hopper on the planet’s larger moon Phobos. Ground controllers
+                    lost contact with Phobos 1 on Sept. 2 while still en route to Mars, due to an erroneous command sent
+                    to the spacecraft. Phobos 2 successfully entered orbit around Mars on Jan. 29, 1989, and returned 37
+                    detailed images of Phobos, mapping 80% of the moon. Shortly before the deployment of the lander and
+                    hopper, the main computer aboard Phobos 2 failed, and the mission ended prematurely on March 27. In
+                    1992, NASA launched the Mars Observer orbiter, the agency’s first mission to Mars since the Viking
+                    spacecraft. Controllers lost contact with the spacecraft three days before its planned orbital
+                    insertion burn on Aug. 24, 1993. Engineers believe a faulty valve caused the buildup of fuel and
+                    oxidizer vapors that exploded when the spacecraft’s engine ignited for a course correction. Mars 96,
+                    Russia’s only attempt to reach Mars in the 1990s, launched on Nov. 16, 1996. The ambitious
+                    spacecraft to study the Martian atmosphere, its surface, and its interior consisted of an orbiter,
+                    two small landers, and two surface penetrators. Failure of the rocket’s upper stage to reignite left
+                    the spacecraft in low-Earth orbit, reentering Earth’s atmosphere soon after.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-4-graphic.webp"
+                        alt="In 1997, the Sojourner rover prior to deploying from the Mars Pathfinder lander with its deflated air bags." />
+                    <figcaption>In 1997, the Sojourner rover prior to deploying from the Mars Pathfinder lander with its
+                        deflated air bags.</figcaption>
+                </figure>
+                <p>A new era of continuous Mars exploration began with the airbag-assisted soft-landing of the Mars
+                    Pathfinder on July 4, 1997, the first Mars landing in 21 years. Since that day, at least one
+                    spacecraft has studied Mars, either from its surface or from orbit. For much of the past 25 years,
+                    multiple spacecraft have carried out coordinated studies to vastly improve our understanding of the
+                    Red Planet. Designed as a technology demonstration mission, Pathfinder deployed the 23-pound
+                    Sojourner rover, the first wheeled vehicle to operate on the Red Planet. For the first time in the
+                    planetary program, the public could access the data and especially the images coming in from Mars
+                    essentially in real time through a new medium called the Internet. Pathfinder ceased operations on
+                    Sept. 27, 1997, but by that time the Mars Global Surveyor (MGS) had arrived, entering an elliptical
+                    orbit around Mars on Sept. 12. It operated in orbit for more than nine years, conducting its primary
+                    mapping mission, returning more than 240,000 images of Mars, and also supporting the Spirit and
+                    Opportunity rovers on the surface following their arrival in January 2004.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-5-graphic.webp"
+                        alt="Illustration of Japan’s Nozomi spacecraft as it would have appeared in orbit around Mars." />
+                    <figcaption>Illustration of Japan’s Nozomi spacecraft as it would have appeared in orbit around
+                        Mars.</figcaption>
+                </figure>
+                <p>The Great Galactic Ghoul had another feast, hopefully its last, in 1999. Japan’s Nozomi spacecraft
+                    planned to enter orbit around Mars in October 1999 to study the planet’s atmosphere. Excessive use
+                    of fuel earlier in the mission left it without enough propellant to enter its proper trajectory. It
+                    instead flew by Mars on Dec. 14, 2003. NASA’s next attempts to reach Mars involved the Mars Climate
+                    Orbiter (MCO) to study the Martian atmosphere in detail, and the Mars Polar Lander designed to look
+                    for water ice in the planet’s southern polar region. As the orbiter passed behind Mars for its
+                    orbital insertion maneuver on Sept. 23, 1999, controllers lost contact 49 seconds earlier than
+                    expected. A confusion between metric and English units in the navigation system resulted in MCO
+                    being much too low in Mars’ atmosphere for the insertion burn. Controllers never regained contact
+                    with the spacecraft, as it either burned up in the atmosphere or ricocheted off the atmosphere. On
+                    Dec. 3, the Mars Polar Lander (MPL) arrived at Mars. In addition to attempting a soft landing in
+                    Mars’ south polar region, MPL also deployed two identical impactor probes called Deep Space 2A and
+                    2B, intended to penetrate the Martian surface and study the subsurface composition to a depth of one
+                    meter. As MPL separated from its cruise stage to begin its entry, descent, and landing, all contact
+                    ceased. Following expected touchdown, ground controllers could not reestablish communications, and
+                    it is believed MPL crashed on the surface. Controllers also could not establish contact with the two
+                    Deep Space probes after they entered the atmosphere.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-6-graphic.webp"
+                        alt="Illustration of Mars Odyssey in orbit around Mars." />
+                    <figcaption>Illustration of Mars Odyssey in orbit around Mars.</figcaption>
+                </figure>
+                <p>The new millennium saw the arrival of what turned out to be the two longest-lived orbiters around
+                    Mars. On Oct. 21, 2001, NASA’s Mars Odyssey joined MGS in orbit around Mars. After achieving its
+                    operational orbit via three months of aerobraking maneuvers, Mars Odyssey began its main mission:
+                    image the surface of Mars. It also helpedsearch for suitable landing sites for future landers and
+                    rovers, characterized surface and atmospheric chemical composition, and served as a relay for the
+                    rovers and landers as they arrived and operated on the Martian surface. By 2008, the spacecraft had
+                    mapped the distribution of water below the Martian surface, findings confirmed by subsequent
+                    landers. Mars Odyssey remains healthy, and controllers expect it to continue operating at least
+                    until 2025. The European Space Agency’s (ESA) first mission to Mars, Mars Express, successfully
+                    entered orbit around the Red Planet on Dec. 25, 2003, and continues to operate today. The Beagle 2
+                    lander it deployed six days prior to orbital insertion did not fare as well. It appeared to land
+                    safely, but two of its four solar arrays did not deploy, blocking its communications antenna.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-7-graphic.webp"
+                        alt="Illustration of a Mars Exploration Rover on the surface of Mars." />
+                    <figcaption>Illustration of a Mars Exploration Rover on the surface of Mars.</figcaption>
+                </figure>
+                <p>Relying on the experience of the Sojourner rover, NASA next deployed a pair of more advanced Mars
+                    Exploration Rovers. Arriving in January 2004, the Spirit and Opportunity rovers both greatly
+                    outlasted their expected 90-day operational lifetimes. Spirit explored Gusev Crater for 2,208
+                    Martian sols – 2,249 Earth days – before finally falling silent on March 22, 2010, having traveled
+                    4.8 miles versus the planned 0.4 miles. Its twin Opportunity spent 5,110 sols – 5,250 Earth days, or
+                    more than 14 years – driving 28.06 miles on Meridiani Planum, before a planetary dust storm ended
+                    its mission on June 10, 2018. The next spacecraft to arrive at the Red Planet, NASA’s Mars
+                    Reconnaissance Orbiter (MRO), entered orbit on March 10, 2006, joining the three other operational
+                    orbiters. The spacecraft continues in its mission to study the geology and climate of Mars, provide
+                    imagery of the surface to allow scientists to select future landing sites, and to provide
+                    communications relay services to landers and rovers on the surface.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-8-graphic.webp"
+                        alt="Panoramic image showing the landing site around the Phoenix polar lander in 2008." />
+                    <figcaption>
+                        Panoramic image showing the landing site around the Phoenix polar lander in 2008.
+                    </figcaption>
+                </figure>
+                <p>The Phoenix polar lander landed in Mars’ northern polar region on May 25, 2008, making the
+                    northernmost landing of any spacecraft on the Red Planet. The goals of the Phoenix lander included a
+                    search for evidence of water in the form of ice and for evidence of Mars’ past habitability. It
+                    found direct evidence of water ice, confirming the orbital observations made by Mars Odyssey but
+                    left open the question of whether at one time Mars was habitable to some forms of life. Phoenix
+                    operated until Nov. 2, 67 sols past its expected lifetime, falling victim to the approaching Martian
+                    winter with extremely cold temperatures and reduced sunlight to power the spacecraft.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-9-graphic.webp"
+                        alt="The view from Curiosity of the hills approaching Mt. Sharp in 2015." />
+                    <figcaption>The view from Curiosity of the hills approaching Mt. Sharp in 2015.</figcaption>
+                </figure>
+                <p>An ambitious joint Russian-Chinese effort to send orbiters to Mars and collect and return samples
+                    from the Martian moon Phobos met with an early end. The Russian-built Fobos-Grunt spacecraft,
+                    including an orbiter and the Phobos lander and return vehicle, also carried the small Chinese
+                    Yinghuo-1 orbiter. Following launch on Nov. 8, 2011, and insertion into an Earth parking orbit, the
+                    spacecraft’s engine failed to fire to send it on its way to Mars. Left in this low-Earth orbit,
+                    Fobos-Grunt made an uncontrolled reentry over the Pacific Ocean on Jan. 15, 2012. Taking advantage
+                    of the same launch window, NASA’s Mars Science Laboratory launched on Nov. 26, 2011, and landed in
+                    Gale Crater on Aug. 6, 2012, delivering the Curiosity rover to the planet to search for evidence of
+                    water. Having recently celebrated its 10th anniversary exploring Gale Crater and Mt. Sharp,
+                    Curiosity continues to build on its earlier discoveries, confirming that liquid water once flowed on
+                    Mars during a much wetter period in its history. The rover has traveled 18 miles from the crater’s
+                    floor and ascended 2,000 feet onto Mt. Sharp, drilling into 35 rocks to examine their internal
+                    structures, and taken thousands of photographs not only of the Martian landscape but of celestial
+                    objects as well. Its exploration mission continues.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-10-graphic.webp"
+                        alt="Illustration of NASA’s MAVEN in orbit around Mars." />
+                    <figcaption>Illustration of NASA’s MAVEN in orbit around Mars.</figcaption>
+                </figure>
+                <p>Two new orbiters arrived at Mars in 2014. First, NASA’s Mars Atmosphere and Volatile Evolution
+                    (MAVEN) arrived in orbit on Sept. 22, to begin its study of the loss of gases from Mars’ atmosphere
+                    to learn about its climate history. Two days later, India’s first interplanetary probe, the
+                    Mangalyaan Mars Orbiter Mission, entered orbit around Mars. Although primarily a technology
+                    demonstration mission, Mangalyaan carries several scientific instruments to image the Martian
+                    surface in visible and infrared light and to study the planet’s atmosphere.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-11-graphic.webp"
+                        alt="Illustration of the joint European Space Agency (ESA)-Roscosmos ExoMars 2016 Trace Gas Orbiter having deployed the Schiaparelli lander." />
+                    <figcaption>Illustration of the joint European Space Agency (ESA)-Roscosmos ExoMars 2016 Trace Gas
+                        Orbiter having deployed the Schiaparelli lander.</figcaption>
+                </figure>
+                <p>The joint ESA-Roscosmos ExoMars 2016 Trace Gas Orbiter (TGO) entered orbit around Mars on Oct. 19,
+                    2016, to begin its mission to better understand the quantities of trace gases like methane in the
+                    Martian atmosphere that could indicate signs of life. The Schiaparelli Entry, Descent and Landing
+                    Demonstrator Module (EDM) lander, released from TGO three days earlier, did not achieve a soft
+                    landing due to the premature release of its parachute. Prior to loss of the EDM lander, it
+                    transmitted 300 megabytes of telemetry during the descent. The TGO’s orbital science mission
+                    continues today. NASA’s next mission consisted of a stationary lander called Interior Exploration
+                    using Seismic Investigations, Geodesy and Heat Transport (InSight), with the goal of studying Mars’
+                    interior through the use of a seismometer and a heat flow probe. During its 6.5-month cruise to
+                    Mars, two cubesats called Mars Cube One A and B (MarCO-A and -B) accompanied InSight to provide
+                    communications relay services during its Nov. 26, 2018 entry, descent, and landing phase. Following
+                    InSight’s successful landing, MarCO-A and -B sailed past Mars into solar orbit. Operating well
+                    beyond its expected lifetime, and recording several Marsquakes during that time, in 2022 controllers
+                    turned off all of InSight’s instruments except its seismometer as accumulated dust on its solar
+                    panels greatly reduced available power.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-12-graphic.webp"
+                        alt="Illustration of the United Arab Emirates’ first interplanetary spacecraft, the Emirati Mars Mission Hope orbiter." />
+                    <figcaption>Illustration of the United Arab Emirates’ first interplanetary spacecraft, the Emirati
+                        Mars Mission Hope orbiter.</figcaption>
+                </figure>
+                <p>In late July 2020, a multinational fleet of spacecraft set off for the Red Planet, arriving in 2021.
+                    The United Arab Emirates dispatched its first interplanetary probe, the Emirati Mars Mission Hope
+                    orbiter that arrived at the Red Planet on Feb. 9, 2021, and continues to operate today. In August
+                    2022, in collaboration with scientists working with NASA’s MAVEN spacecraft, Hope researchers
+                    announced a detailed description of auroras caused by the interaction of the solar wind with Mars’
+                    upper atmosphere. The People’s Republic of China launched its first spacecraft to Mars, the
+                    highly-ambitious Tianwen-1 mission consisting of six separate components: an orbiter with two
+                    deployable cameras, a lander with a deployable remote camera, and the Zhurong rover. Tianwen-1
+                    entered Mars orbit on Feb. 10, 2021. It began to image the surface to identify candidate landing
+                    sites and to characterize the planet’s atmosphere. On May 14, the lander/rover separated from the
+                    orbiter and began its entry and descent, concluding with a successful touchdown on Utopia Planitia.
+                    Eight days later, the Zhurong rover rolled down the lander’s ramp onto the Martian surface, making
+                    China only the second country to successfully put wheels on Mars.
+                </p>
+                <figure>
+                    <img src="assets/img/mars-exploration-13-graphic.webp"
+                        alt="Self-portrait of the Perseverance rover, with the Ingenuity helicopter seen at left shortly after its deployment." />
+                    <figcaption>Self-portrait of the Perseverance rover, with the Ingenuity helicopter seen at left
+                        shortly after its deployment.</figcaption>
+                </figure>
+                <p>The third member of the fleet, NASA’s Mars 2020 mission arrived at Mars on Feb. 18, 2021, making a
+                    soft-landing in Jezero Crater and delivering the Perseverance rover, marking the first time that
+                    three rovers traveled on Mars at the same time. The newest rover’s design derives from its
+                    predecessor Curiosity, with new science instruments, a core drill, and the Ingenuity helicopter
+                    deployed on April 3. Designed as a technology demonstration, Ingenuity made its first flight in the
+                    thin Martian atmosphere on April 19, and after 31 flights (as of Sept. 6, 2022) has far exceeded its
+                    planned operational life. Meanwhile, Perseverance began collecting the rock, soil, and air samples
+                    it is caching for retrieval by a future mission that would bring them to Earth. In the first
+                    demonstration of using resources on the surface of another planet, an experiment on the rover called
+                    Mars Oxygen In-situ Resource Utilization Experiment (MOXIE) has manufactured oxygen from abundantly
+                    available carbon dioxide. A scaled-up version of MOXIE could one day produce oxygen for future
+                    astronauts on Mars.
+                </p>
+
+                <a
+                    href="https://www.nasa.gov/history/25-years-of-continuous-robotic-mars-exploration-from-pathfinder-to-perseverance/">Text
+                    source</a>
+            </article>
+
+        </section>
+
+    </main>
+
+    <aside>
+
+        <header class="secondary">
+            <h1>NASA Mars Rovers</h1>
+            <p class="subtitle">Robotic Explorers on the Red Planet</p>
+
+            <section id="about">
+                <h2>About</h2>
+                <p>The Mars rover missions send mobile robots to explore the planet’s surface, analyze rocks and soil,
+                    and search for signs that Mars once had conditions suitable for life. They examine the planet’s
+                    climate and geology to understand how it changed over time, especially the role of water in its
+                    history. These rovers also test new technologies and collect samples that may one day be returned to
+                    Earth, helping prepare for future human exploration.</p>
+            </section>
         </header>
 
-        <main id="main-content">
-            
-            <section id="mission-dates">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Rover</th>
-                            <th>Rocket</th>
-                            <th>Launch Date</th>
-                            <th>Launch Site</th>
-                            <th>Landing Date</th>
-                            <th>Landing Site</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Sojourner</td>
-                            <td>Delta II 7925 D240</td>
-                            <td>December 4, 1996</td>
-                            <td>Cape Canaveral LC-17B</td>
-                            <td>July 4, 1997</td>
-                            <td>Ares Vallis, Chryse Planitia</td>
-                        </tr>
-                        <tr>
-                            <td>Spirit</td>
-                            <td>Delta II 7925-9.5</td>
-                            <td>June 10, 2003</td>
-                            <td>Cape Canaveral SLC-17A</td>
-                            <td>January 4, 2004</td>
-                            <td>Gusev Crater</td>
-                        </tr>
-                        <tr>
-                            <td>Opportunity</td>
-                            <td>Delta II Heavy</td>
-                            <td>July 8, 2003</td>
-                            <td>Cape Canaveral SLC-17B</td>
-                            <td>January 25, 2004</td>
-                            <td>Eagle, Meridiani Planum</td>
-                        </tr>
-                        <tr>
-                            <td>Curiosity</td>
-                            <td>Atlas V 541</td>
-                            <td>November 26, 2011</td>
-                            <td>Cape Canaveral SLC-41</td>
-                            <td>August 6, 2012</td>
-                            <td>Gale Crater</td>
-                        </tr>
-                        <tr>
-                            <td>Perseverance</td>
-                            <td>Atlas V 541</td>
-                            <td>July 30, 2020</td>
-                            <td>Cape Canaveral SLC-41</td>
-                            <td>February 18, 2021</td>
-                            <td>Jezero Crater</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+    </aside>
 
-            <section id="history-overview">
-                
-                <h2>Mission History</h2>
-                <article>
-                    <p>The first three decades (1965 to 1996) of Mars exploration consisted of periodic forays to the Red Planet, dictated by the availability of suitable launch windows every 26 months. The first few spacecraft completed their observations in the few hours of a quick planetary flyby, followed by months of observations by orbiters, and culminating in the longest continuous observation by a lander lasting six years. On July 4, 1997, a new era of continuous robotic scientific exploration of Mars began, with at least one spacecraft operating at all times, either on the surface or in orbit around the planet. Today, an international array of 13 spacecraft – one stationary lander, eight orbiters, three rovers, and one helicopter – continuously adding to our knowledge of the Red Planet.
-                    </p><img src="assets/img/mars-exploration-1-graphic.webp" alt="Summary of the past 25 years of continuous robotic Mars explorers." />
-                    <p>The first phase of Mars exploration recorded more failures than successes. Of the 26 attempts to reach Mars between 1960 and 1996, only 12 met with partial or full success. Between 1960 and 1969, the Soviet Union attempted to send eight spacecraft to Mars. Only two, Mars 1 and Zond 2, made it to interplanetary space, and controllers lost contact with both long before they reached Mars. The first successful Mars mission, Mariner 4, surprised many scientists when, during its flyby on July 14, 1965, it returned 22 black-and-white images showing a cratered lunar-like terrain, seemingly dashing hopes for a possibly habitable world. Mariner 4 had a less well-known twin, Mariner 3, that due to a faulty payload shroud that prevented its solar panels from deploying, lost out on being the first spacecraft to explore Mars. That failure, along with the string of failed Soviet probes to Mars, led engineer John R. Casani at NASA’s Jet Propulsion Laboratory in Pasadena, California, to jokingly come up with the idea of the Great Galactic Ghoul, a mythical space monster that preyed on unsuspecting spacecraft on their way to the Red Planet. In 1969, as Mariner 7 approached the planet for its flyby, ground controllers suddenly lost contact with it. At first they jokingly feared a ghoul attack, but the spacecraft resumed communications and completed a successful mission along with its twin, Mariner 6.
-                    </p><img src="assets/img/mars-exploration-2-graphic.webp" alt="The highest-resolution image returned by Mariner 4 during its July 1965 flyby of Mars." />
-                    <p>The 1970s were a little kinder to the Soviet Union. Six of their seven missions achieved partial successes with a series of flybys, orbiters, and landers. In 1971, the United States’ plan to send two orbiters to map the planet’s surface in detail suffered a setback when the first, Mariner 8, fell victim to a launch failure. But its twin, Mariner 9, became the first spacecraft to orbit another planet on Nov. 13. It continued to operate until October 1972, mapping 85% of the planet to a resolution sufficient for scientists to select landing sites for the next two spacecraft, Viking 1 and 2, that arrived at Mars in the summer of 1976. Each Viking spacecraft consisted of an orbiter and a lander, the latter equipped with sophisticated instruments to test for signs of life in the Martian soil. While the results of those experiments remain inconclusive, all the Viking spacecraft far exceeded their operational lives, conducting the first detailed investigations from Mars’ surface.
-                    </p><img src="assets/img/mars-exploration-3-graphic.webp" alt="Illustration of Phobos 2 in orbit around Mars." />
-                    <p>A six-year hiatus in Mars exploration followed after the last of the Vikings stopped working (the Viking 1 lander, on Nov. 11, 1982). When attempts resumed, the Great Galactic Ghoul made its presence felt. The Soviet Union launched a pair of spacecraft called Phobos 1 and 2 in July 1988 to orbit Mars and deploy landers and a hopper on the planet’s larger moon Phobos. Ground controllers lost contact with Phobos 1 on Sept. 2 while still en route to Mars, due to an erroneous command sent to the spacecraft. Phobos 2 successfully entered orbit around Mars on Jan. 29, 1989, and returned 37 detailed images of Phobos, mapping 80% of the moon. Shortly before the deployment of the lander and hopper, the main computer aboard Phobos 2 failed, and the mission ended prematurely on March 27. In 1992, NASA launched the Mars Observer orbiter, the agency’s first mission to Mars since the Viking spacecraft. Controllers lost contact with the spacecraft three days before its planned orbital insertion burn on Aug. 24, 1993. Engineers believe a faulty valve caused the buildup of fuel and oxidizer vapors that exploded when the spacecraft’s engine ignited for a course correction. Mars 96, Russia’s only attempt to reach Mars in the 1990s, launched on Nov. 16, 1996. The ambitious spacecraft to study the Martian atmosphere, its surface, and its interior consisted of an orbiter, two small landers, and two surface penetrators. Failure of the rocket’s upper stage to reignite left the spacecraft in  low-Earth orbit, reentering Earth’s atmosphere soon after.
-                    </p><img src="assets/img/mars-exploration-4-graphic.webp" alt="In 1997, the Sojourner rover prior to deploying from the Mars Pathfinder lander with its deflated air bags." />
-                    <p>A new era of continuous Mars exploration began with the airbag-assisted soft-landing of the Mars Pathfinder on July 4, 1997, the first Mars landing in 21 years. Since that day, at least one spacecraft has studied Mars, either from its surface or from orbit. For much of the past 25 years, multiple spacecraft have carried out coordinated studies to vastly improve our understanding of the Red Planet. Designed as a technology demonstration mission, Pathfinder deployed the 23-pound Sojourner rover, the first wheeled vehicle to operate on the Red Planet. For the first time in the planetary program, the public could access the data and especially the images coming in from Mars essentially in real time through a new medium called the Internet. Pathfinder ceased operations on Sept. 27, 1997, but by that time the Mars Global Surveyor (MGS) had arrived, entering an elliptical orbit around Mars on Sept. 12. It operated in orbit for more than nine years, conducting its primary mapping mission, returning more than 240,000 images of Mars, and also supporting the Spirit and Opportunity rovers on the surface following their arrival in January 2004.
-                    </p><img src="assets/img/mars-exploration-5-graphic.webp" alt="Illustration of Japan’s Nozomi spacecraft as it would have appeared in orbit around Mars." />
-                    <p>The Great Galactic Ghoul had another feast, hopefully its last, in 1999. Japan’s Nozomi spacecraft planned to enter orbit around Mars in October 1999 to study the planet’s atmosphere. Excessive use of fuel earlier in the mission left it without enough propellant to enter its proper trajectory. It instead flew by Mars on Dec. 14, 2003. NASA’s next attempts to reach Mars involved the Mars Climate Orbiter (MCO) to study the Martian atmosphere in detail, and the Mars Polar Lander designed to look for water ice in the planet’s southern polar region. As the orbiter passed behind Mars for its orbital insertion maneuver on Sept. 23, 1999, controllers lost contact 49 seconds earlier than expected. A confusion between metric and English units in the navigation system resulted in MCO being much too low in Mars’ atmosphere for the insertion burn. Controllers never regained contact with the spacecraft, as it either burned up in the atmosphere or ricocheted off the atmosphere. On Dec. 3, the Mars Polar Lander (MPL) arrived at Mars. In addition to attempting a soft landing in Mars’ south polar region, MPL also deployed two identical impactor probes called Deep Space 2A and 2B, intended to penetrate the Martian surface and study the subsurface composition to a depth of one meter. As MPL separated from its cruise stage to begin its entry, descent, and landing, all contact ceased. Following expected touchdown, ground controllers could not reestablish communications, and it is believed MPL crashed on the surface. Controllers also could not establish contact with the two Deep Space probes after they entered the atmosphere.
-                    </p><img src="assets/img/mars-exploration-6-graphic.webp" alt="Illustration of Mars Odyssey in orbit around Mars." />
-                    <p>The new millennium saw the arrival of what turned out to be the two longest-lived orbiters around Mars. On Oct. 21, 2001, NASA’s Mars Odyssey joined MGS in orbit around Mars. After achieving its operational orbit via three months of aerobraking maneuvers, Mars Odyssey began its main mission: image the surface of Mars. It also helpedsearch for suitable landing sites for future landers and rovers, characterized surface and atmospheric chemical composition, and served as a relay for the rovers and landers as they arrived and operated on the Martian surface. By 2008, the spacecraft had mapped the distribution of water below the Martian surface, findings confirmed by subsequent landers. Mars Odyssey remains healthy, and controllers expect it to continue operating at least until 2025. The European Space Agency’s (ESA) first mission to Mars, Mars Express, successfully entered orbit around the Red Planet on Dec. 25, 2003, and continues to operate today. The Beagle 2 lander it deployed six days prior to orbital insertion did not fare as well. It appeared to land safely, but two of its four solar arrays did not deploy, blocking its communications antenna.
-                    </p><img src="assets/img/mars-exploration-7-graphic.webp" alt="Illustration of a Mars Exploration Rover on the surface of Mars." />
-                    <p>Relying on the experience of the Sojourner rover, NASA next deployed a pair of more advanced Mars Exploration Rovers. Arriving in January 2004, the Spirit and Opportunity rovers both greatly outlasted their expected 90-day operational lifetimes. Spirit explored Gusev Crater for 2,208 Martian sols – 2,249 Earth days – before finally falling silent on March 22, 2010, having traveled 4.8 miles versus the planned 0.4 miles. Its twin Opportunity spent 5,110 sols – 5,250 Earth days, or more than 14 years – driving 28.06 miles on Meridiani Planum, before a planetary dust storm ended its mission on June 10, 2018. The next spacecraft to arrive at the Red Planet, NASA’s Mars Reconnaissance Orbiter (MRO), entered orbit on March 10, 2006, joining the three other operational orbiters. The spacecraft continues in its mission to study the geology and climate of Mars, provide imagery of the surface to allow scientists to select future landing sites, and to provide communications relay services to landers and rovers on the surface.
-                    </p><img src="assets/img/mars-exploration-8-graphic.webp" alt="Panoramic image showing the landing site around the Phoenix polar lander in 2008." />
-                    <p>The Phoenix polar lander landed in Mars’ northern polar region on May 25, 2008, making the northernmost landing of any spacecraft on the Red Planet. The goals of the Phoenix lander included a search for evidence of water in the form of ice and for evidence of Mars’ past habitability. It found direct evidence of water ice, confirming the orbital observations made by Mars Odyssey but left open the question of whether at one time Mars was habitable to some forms of life. Phoenix operated until Nov. 2, 67 sols past its expected lifetime, falling victim to the approaching Martian winter with extremely cold temperatures and reduced sunlight to power the spacecraft.
-                    </p><img src="assets/img/mars-exploration-9-graphic.webp" alt="The view from Curiosity of the hills approaching Mt. Sharp in 2015." />
-                    <p>An ambitious joint Russian-Chinese effort to send orbiters to Mars and collect and return  samples from the Martian moon Phobos met with an early end. The Russian-built Fobos-Grunt spacecraft, including an orbiter and the Phobos lander and return vehicle, also carried the small Chinese Yinghuo-1 orbiter. Following launch on Nov. 8, 2011, and insertion into an Earth parking orbit, the spacecraft’s engine failed to fire to send it on its way to Mars. Left in this low-Earth orbit, Fobos-Grunt made an uncontrolled reentry over the Pacific Ocean on Jan. 15, 2012. Taking advantage of the same launch window, NASA’s Mars Science Laboratory launched on Nov. 26, 2011, and landed in Gale Crater on Aug. 6, 2012, delivering the Curiosity rover to the planet to search for evidence of water. Having recently celebrated its 10th anniversary exploring Gale Crater and Mt. Sharp, Curiosity continues to build on its earlier discoveries, confirming that liquid water once flowed on Mars during a much wetter period in its history. The rover has traveled 18 miles from the crater’s floor and ascended 2,000 feet onto Mt. Sharp, drilling into 35 rocks to examine their internal structures, and taken thousands of photographs not only of the Martian landscape but of celestial objects as well. Its exploration mission continues.
-                    </p><img src="assets/img/mars-exploration-10-graphic.webp" alt="Illustration of NASA’s MAVEN in orbit around Mars." />
-                    <p>Two new orbiters arrived at Mars in 2014. First, NASA’s Mars Atmosphere and Volatile Evolution (MAVEN) arrived in orbit on Sept. 22, to begin its study of the loss of gases from Mars’ atmosphere to learn about its climate history. Two days later, India’s first interplanetary probe, the Mangalyaan Mars Orbiter Mission, entered orbit around Mars. Although primarily a technology demonstration mission, Mangalyaan carries several scientific instruments to image the Martian surface in visible and infrared light and to study the planet’s atmosphere.
-                    </p><img src="assets/img/mars-exploration-11-graphic.webp" alt="Illustration of the joint European Space Agency (ESA)-Roscosmos ExoMars 2016 Trace Gas Orbiter having deployed the Schiaparelli lander." />
-                    <p>The joint ESA-Roscosmos ExoMars 2016 Trace Gas Orbiter (TGO) entered orbit around Mars on Oct. 19, 2016, to begin its mission to better understand the quantities of trace gases like methane in the Martian atmosphere that could indicate signs of life. The Schiaparelli Entry, Descent and Landing Demonstrator Module (EDM) lander, released from TGO three days earlier, did not achieve a soft landing due to the premature release of its parachute. Prior to loss of the EDM lander, it transmitted 300 megabytes of telemetry during the descent. The TGO’s orbital science mission continues today. NASA’s next mission consisted of a stationary lander called Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight), with the goal of studying Mars’ interior through the use of a seismometer and a heat flow probe. During its 6.5-month cruise to Mars, two cubesats called Mars Cube One A and B (MarCO-A and -B) accompanied InSight to provide communications relay services during its Nov. 26, 2018 entry, descent, and landing phase. Following InSight’s successful landing, MarCO-A and -B sailed past Mars into solar orbit. Operating well beyond its expected lifetime, and recording several Marsquakes during that time, in 2022 controllers turned off all of InSight’s instruments except its seismometer as accumulated dust on its solar panels greatly reduced available power.
-                    </p><img src="assets/img/mars-exploration-12-graphic.webp" alt="Illustration of the United Arab Emirates’ first interplanetary spacecraft, the Emirati Mars Mission Hope orbiter." />
-                    <p>In late July 2020, a multinational fleet of spacecraft set off for the Red Planet, arriving in 2021. The United Arab Emirates dispatched its first interplanetary probe, the Emirati Mars Mission Hope orbiter that arrived at the Red Planet on Feb. 9, 2021, and continues to operate today. In August 2022, in collaboration with scientists working with NASA’s MAVEN spacecraft, Hope researchers announced a detailed description of auroras caused by the interaction of the solar wind with Mars’ upper atmosphere. The People’s Republic of China launched its first spacecraft to Mars, the highly-ambitious Tianwen-1 mission consisting of six separate components: an orbiter with two deployable cameras, a lander with a deployable remote camera, and the Zhurong rover. Tianwen-1 entered Mars orbit on Feb. 10, 2021. It began to image the surface to identify candidate landing sites and to characterize the planet’s atmosphere. On May 14, the lander/rover separated from the orbiter and began its entry and descent, concluding with a successful touchdown on Utopia Planitia. Eight days later, the Zhurong rover rolled down the lander’s ramp onto the Martian surface, making China only the second country to successfully put wheels on Mars.
-                    </p><img src="assets/img/mars-exploration-13-graphic.webp" alt="Self-portrait of the Perseverance rover, with the Ingenuity helicopter seen at left shortly after its deployment." />
-                    <p>The third member of the fleet, NASA’s Mars 2020 mission arrived at Mars on Feb. 18, 2021, making a soft-landing in Jezero Crater and delivering the Perseverance rover, marking the first time that three rovers traveled on Mars at the same time. The newest rover’s design derives from its predecessor Curiosity, with new science instruments, a core drill, and the Ingenuity helicopter deployed on April 3. Designed as a technology demonstration, Ingenuity made its first flight in the thin Martian atmosphere on April 19, and after 31 flights (as of Sept. 6, 2022) has far exceeded its planned operational life. Meanwhile, Perseverance began collecting the rock, soil, and air samples it is caching for retrieval by a future mission that would bring them to Earth. In the first demonstration of using resources on the surface of another planet, an experiment on the rover called Mars Oxygen In-situ Resource Utilization Experiment (MOXIE) has manufactured oxygen from abundantly available carbon dioxide. A scaled-up version of MOXIE could one day produce oxygen for future astronauts on Mars.
-                    </p>
-                    
-                    <a href="https://www.nasa.gov/history/25-years-of-continuous-robotic-mars-exploration-from-pathfinder-to-perseverance/">Text source</a>
-                </article>
-                
-            </section>
+    <footer class="primary">
+        <p>&copy; 2026 <a href="https://landonburress.com">Landon Burress</a></p>
+        <p>This website was created as a student project for educational purposes. NASA is not affiliated with or
+            endorsing this work.</p>
 
-        </main>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#top">Back to top</a></li>
+                <li><a href="mailto:test@ualr.edu">Email me</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
 
-        <aside>
-            
-            <header class="secondary">
-                <h1>NASA Mars Rovers</h1>
-                <p class="subtitle">Robotic Explorers on the Red Planet</p>
-
-                <section id="about">
-                    <h2>About</h2>
-                    <p>The Mars rover missions send mobile robots to explore the planet’s surface, analyze rocks and soil, and search for signs that Mars once had conditions suitable for life. They examine the planet’s climate and geology to understand how it changed over time, especially the role of water in its history. These rovers also test new technologies and collect samples that may one day be returned to Earth, helping prepare for future human exploration.</p>
-                </section>
-            </header>
-            
-        </aside>
-
-        <footer class="primary">
-            <p>&copy; 2026 <a href="https://landonburress.com">Landon Burress</a></p>
-            <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
-            
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#top">Back to top</a></li>
-                    <li><a href="mailto:test@ualr.edu">Email me</a></li>
-                </ul>
-            </nav>
-        </footer>
-    </body>
 </html>
