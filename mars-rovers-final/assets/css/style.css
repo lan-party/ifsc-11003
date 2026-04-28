@@ -62,7 +62,7 @@ header.primary {
     justify-content: space-between;
     padding-left: 10px;
     align-items: center;
-    background-color: #004763;
+    background-color: #005679;
     color: #d1f8ff;
 }
 
@@ -167,7 +167,7 @@ article a:hover {
 }
 
 #rovers figure {
-    background-color: #004763;
+    background-color: #005679;
 }
 
 #rovers figcaption {
@@ -236,13 +236,13 @@ article a:hover {
 
 #history-overview article figure {
     display: table;
-    background-color: #004763;
+    background-color: #005679;
 }
 
 #history-overview article figcaption {
     display: table-caption;
     caption-side: bottom;
-    background-color: #004763;
+    background-color: #005679;
     padding: 0 10px 5px 10px;
 }
 
@@ -286,7 +286,7 @@ aside {
 }
 
 header.secondary {
-    background-image: linear-gradient(to bottom, #004763 50%, #d1f8ff 100%);
+    background-image: linear-gradient(to bottom, #005679 50%, #d1f8ff 100%);
     padding: 15px;
 }
 
@@ -306,7 +306,7 @@ p.subtitle {
 }
 
 #mission-patches {
-    background-color: #004763;
+    background-color: #005679;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -322,7 +322,7 @@ p.subtitle {
 }
 
 #mission-patches figure {
-    background-color: #004763;
+    background-color: #005679;
     width: 80%;
     margin-left: 10%;
 }
@@ -346,7 +346,7 @@ footer.primary {
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #004763;
+    background-color: #005679;
     color: #d1f8ff;
 }
 
@@ -445,7 +445,7 @@ nav.footer-nav ul li {
     }
 
     header.secondary {
-        background-color: #004763;
+        background-color: #005679;
         background-image: none;
     }
 
